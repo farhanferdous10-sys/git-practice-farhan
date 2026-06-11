@@ -1,4 +1,4 @@
-# Git & GitHub Practical Assignment
+# Git & GitHub Assignment
 **Farhan** | `git-practice-farhan`
 
 ---
@@ -6,8 +6,8 @@
 ## Setup
 
 ```bash
-git config --global user.name "Farhan"
-git config --global user.email "my-email@example.com"
+git config --global user. name "Farhan"
+git config --global user.email "farhanferdous10@gmail.com"
 ```
 
 Created a public GitHub repo named `git-practice-farhan` — no initialization.
@@ -58,7 +58,7 @@ python src/main.py
 
 ## Features
 - Basic calculator: add, subtract, multiply, divide
-- Error handling for invalid input and division by zero
+- invalid input and division by zero
 ```
 
 ```bash
@@ -68,7 +68,7 @@ git commit -m "docs: add README with project description and student info."
 
 ---
 
-**`docs/project-description.md`**
+*`docs/project-description.md`*
 ```markdown
 # Project Description
 
@@ -164,7 +164,7 @@ git merge feature/calculator
 
 ---
 
-## Branch: `feature/error-handling`
+## Branch: `feature/error-handling.`
 
 ```bash
 git checkout -b feature/error-handling
@@ -209,7 +209,7 @@ git commit -m "feat: add input type validation and division-by-zero error handli
 
 ---
 
-**`src/main.py`** — updated with safe_calculate
+**`src/main.py`** — _calculate
 ```python
 """Main entry point with error handling — Farhan"""
 
@@ -247,7 +247,7 @@ if __name__ == "__main__":
 
 ```bash
 git add src/main.py
-git commit -m "feat: update main.py to use safe_calculate with try/except error handling"
+git commit -m "feat: update main.py to use safe_calculate with try/except error handling."
 ```
 
 ---
@@ -256,7 +256,7 @@ Updated `README.md` to reflect error handling, then:
 
 ```bash
 git add README.md
-git commit -m "docs: update README with error handling features and sample output"
+git commit -m "docs: update README with error handling features and sample output."
 
 git checkout main
 git merge feature/error-handling
@@ -264,7 +264,7 @@ git merge feature/error-handling
 
 ---
 
-## Push to GitHub
+## Push GitHub
 
 ```bash
 git remote add origin https://github.com/YOUR_USERNAME/git-practice-farhan.git
